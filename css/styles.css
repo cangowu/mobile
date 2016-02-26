@@ -1,0 +1,86 @@
+body, html {
+    -webkit-transform: translate3d(150px,0,0);
+    transition: all 0.2s
+}
+
+body, ul, li {
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+#content{
+    padding-bottom: 52px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 49px;
+    border-top: 1px solid #d2d2d2;
+    background: #f9f9f9;
+}
+
+.btn {
+    float: left;
+    text-align: center;
+    font-size: 10px;
+    color: #999;
+    width: 25%;
+}
+#footer .active {
+    color: #62aeea;
+}
+.img {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28px;
+    height: 28px;
+}
+
+.img-statistics {
+    background: url("../img/btn/collection_normal.png") no-repeat;
+    background-size: 28px;
+}
+
+.img-collection {
+    background: url("../img/btn/statistics_normal.png") no-repeat;
+    background-size: 28px;
+}
+
+.img-follow {
+    background: url("../img/btn/follow_normal.png") no-repeat;
+    background-size: 28px;
+}
+
+.img-repository {
+    background: url("../img/btn/repository_normal.png") no-repeat;
+    background-size: 28px;
+}
+#footer .active .img-statistics {
+    background: url("../img/btn/collection_selected.png") no-repeat;
+    background-size: 28px;
+}
+
+#footer .active .img-collection {
+    background: url("../img/btn/statistics_selected.png") no-repeat;
+    background-size: 28px;
+}
+
+#footer .active .img-follow {
+    background: url("../img/btn/follow_selected.png") no-repeat;
+    background-size: 28px;
+}
+
+#footer .active .img-repository {
+    background: url("../img/btn/repository_selected.png") no-repeat;
+    background-size: 28px;
+}
+
+
