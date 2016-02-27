@@ -1,6 +1,9 @@
+body {
+}
+
 body, html {
-    -webkit-transform: translate3d(150px,0,0);
-    transition: all 0.2s
+    /*-webkit-transform: translate3d(150px,0,0);*/
+    /*transition: all 0.2s*/
 }
 
 body, ul, li {
@@ -12,8 +15,26 @@ li {
     list-style-type: none;
 }
 
-#content{
-    padding-bottom: 52px;
+#header {
+    width: 100%;
+    height: 44px;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    line-height: 44px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background: #62aeea;
+}
+
+#content {
+    position: absolute;
+    left: 0;
+    top: 44px;
+    bottom: 52px;
+    width: 100%;
+    overflow-y: auto;
 }
 
 #footer {
@@ -22,6 +43,7 @@ li {
     bottom: 0;
     width: 100%;
     height: 49px;
+    z-index: 100;
     border-top: 1px solid #d2d2d2;
     background: #f9f9f9;
 }
@@ -33,9 +55,11 @@ li {
     color: #999;
     width: 25%;
 }
+
 #footer .active {
     color: #62aeea;
 }
+
 .img {
     margin-top: 5px;
     margin-left: auto;
@@ -63,6 +87,7 @@ li {
     background: url("../img/btn/repository_normal.png") no-repeat;
     background-size: 28px;
 }
+
 #footer .active .img-statistics {
     background: url("../img/btn/collection_selected.png") no-repeat;
     background-size: 28px;
